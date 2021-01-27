@@ -30,6 +30,9 @@ class _MyBottomNavigationBarState extends State<MyBottomNavigationBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Evening Class'),
+        ),
       bottomNavigationBar: BottomNavigationBar(
         items:[
           BottomNavigationBarItem(
